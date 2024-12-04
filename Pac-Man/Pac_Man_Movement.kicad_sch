@@ -2604,12 +2604,6 @@
 		(uuid "372f0fe6-3def-4990-973e-6f3ec281928e")
 	)
 	(junction
-		(at 170.18 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50f008b5-dc48-407c-8444-1112df5ab117")
-	)
-	(junction
 		(at 49.53 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2800,6 +2794,17 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 125.73) (xy 115.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 191 214 255 1)
+		)
+		(uuid "366e2348-8fe2-42d5-8532-9c66e67fcc25")
+	)
+	(wire
+		(pts
 			(xy 207.01 64.77) (xy 218.44 64.77)
 		)
 		(stroke
@@ -2863,6 +2868,17 @@
 			(color 255 132 0 1)
 		)
 		(uuid "441e8d9d-84d3-4a31-bd21-cc00b61045bc")
+	)
+	(wire
+		(pts
+			(xy 69.85 55.88) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 191 214 255 1)
+		)
+		(uuid "44ea35b8-2645-4f23-999d-e129c50c316c")
 	)
 	(wire
 		(pts
@@ -3095,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 35.56) (xy 201.93 35.56)
+			(xy 156.21 35.56) (xy 201.93 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3227,6 +3243,17 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 55.88) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 191 214 255 1)
+		)
+		(uuid "9f49d5bf-ef39-48b4-95d1-63887553243f")
+	)
+	(wire
+		(pts
 			(xy 204.47 100.33) (xy 204.47 62.23)
 		)
 		(stroke
@@ -3290,17 +3317,6 @@
 			(color 191 214 255 1)
 		)
 		(uuid "b7cafbf7-d9b0-4681-9485-a944ffc4aee0")
-	)
-	(wire
-		(pts
-			(xy 156.21 35.56) (xy 170.18 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 26 2 255 1)
-		)
-		(uuid "bb239098-1e59-4a34-94f5-30149ffe0832")
 	)
 	(wire
 		(pts
@@ -3538,6 +3554,17 @@
 			(color 26 2 255 1)
 		)
 		(uuid "fea446a1-2cce-4f3b-8edc-c8dc96719843")
+	)
+	(wire
+		(pts
+			(xy 69.85 125.73) (xy 85.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 191 214 255 1)
+		)
+		(uuid "ff4fda30-3b46-4573-9988-5fc93c5aeeb8")
 	)
 	(text "Inverters are used to slow down signal"
 		(exclude_from_sim no)
@@ -5495,110 +5522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS04")
-		(at 107.95 125.73 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d26daec-4ef9-4861-8fb4-6a8147ba64e2")
-		(property "Reference" "U14"
-			(at 107.95 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS04"
-			(at 107.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 107.95 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 107.95 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "77ec8f18-cab3-4f86-9b56-ad9b2096bd4d")
-		)
-		(pin "1"
-			(uuid "2d03a968-f788-4685-924c-d6299eb37f0d")
-		)
-		(pin "11"
-			(uuid "dbc81014-885d-4ddb-9a5c-aa3a025cc755")
-		)
-		(pin "14"
-			(uuid "7fcda9d3-697b-4b19-8014-25e516c88a99")
-		)
-		(pin "2"
-			(uuid "05bd04ad-abac-4e71-8907-6a2c778b3069")
-		)
-		(pin "10"
-			(uuid "8d7421a5-7e16-44a1-99eb-e93015900588")
-		)
-		(pin "5"
-			(uuid "04f47e17-d6d3-40ef-9077-a0b979578bd3")
-		)
-		(pin "9"
-			(uuid "5bed6630-6244-40a1-ac21-46c7030a5d8a")
-		)
-		(pin "8"
-			(uuid "f848fa29-7fcf-4c89-8892-3e4f8b3624cf")
-		)
-		(pin "6"
-			(uuid "6c0d0786-3db7-418b-bde2-edfb5baf0a5e")
-		)
-		(pin "13"
-			(uuid "13cc5bdf-b081-48a3-a57b-1d8b2d4067ab")
-		)
-		(pin "12"
-			(uuid "6595e4f6-7e44-4960-8050-8705739ab75c")
-		)
-		(pin "7"
-			(uuid "85c1f440-4663-46a4-a416-2035a55f43a9")
-		)
-		(pin "4"
-			(uuid "d949202d-5399-4c46-862d-4a13fd48a027")
-		)
-		(instances
-			(project "Pac-Man"
-				(path "/5d392bb7-a2f8-4373-a070-9bf2073d9b08/27fc2961-0024-4600-9fbb-4098fc8d4bbd"
-					(reference "U14")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 130.81 97.79 90)
 		(unit 1)
@@ -7390,116 +7313,6 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS04")
-		(at 77.47 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c40e245c-7ef0-4990-bc70-3a12fdb88ce9")
-		(property "Reference" "U5"
-			(at 77.47 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS04"
-			(at 77.47 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 77.47 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 77.47 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d656b8f7-5a1b-4a0d-aada-df0e0f9ad182")
-		)
-		(pin "1"
-			(uuid "2d03a968-f788-4685-924c-d6299eb37f11")
-		)
-		(pin "11"
-			(uuid "dbc81014-885d-4ddb-9a5c-aa3a025cc759")
-		)
-		(pin "14"
-			(uuid "7fcda9d3-697b-4b19-8014-25e516c88a9d")
-		)
-		(pin "2"
-			(uuid "05bd04ad-abac-4e71-8907-6a2c778b306d")
-		)
-		(pin "10"
-			(uuid "8d7421a5-7e16-44a1-99eb-e9301590058c")
-		)
-		(pin "5"
-			(uuid "04f47e17-d6d3-40ef-9077-a0b979578bd7")
-		)
-		(pin "9"
-			(uuid "5bed6630-6244-40a1-ac21-46c7030a5d8e")
-		)
-		(pin "8"
-			(uuid "f848fa29-7fcf-4c89-8892-3e4f8b3624d3")
-		)
-		(pin "6"
-			(uuid "6c0d0786-3db7-418b-bde2-edfb5baf0a62")
-		)
-		(pin "13"
-			(uuid "13cc5bdf-b081-48a3-a57b-1d8b2d4067af")
-		)
-		(pin "12"
-			(uuid "6595e4f6-7e44-4960-8050-8705739ab760")
-		)
-		(pin "7"
-			(uuid "85c1f440-4663-46a4-a416-2035a55f43ad")
-		)
-		(pin "4"
-			(uuid "273cfcfc-3f39-48e0-9272-967ad9ee7dac")
-		)
-		(instances
-			(project ""
-				(path "/5d392bb7-a2f8-4373-a070-9bf2073d9b08/27fc2961-0024-4600-9fbb-4098fc8d4bbd"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/ab9615a4-0aa7-40d9-8df4-24c2a985ff87"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS04")
 		(at 170.18 113.03 270)
 		(unit 2)
 		(exclude_from_sim no)
@@ -7778,116 +7591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS04")
-		(at 107.95 55.88 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f099b7e9-428f-4d9c-af7b-95d28a835839")
-		(property "Reference" "U6"
-			(at 107.95 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS04"
-			(at 107.95 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 107.95 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f24f1341-ed59-42fa-a5d8-b26012df2f5a")
-		)
-		(pin "1"
-			(uuid "2d03a968-f788-4685-924c-d6299eb37f14")
-		)
-		(pin "11"
-			(uuid "dbc81014-885d-4ddb-9a5c-aa3a025cc75c")
-		)
-		(pin "14"
-			(uuid "7fcda9d3-697b-4b19-8014-25e516c88aa0")
-		)
-		(pin "2"
-			(uuid "05bd04ad-abac-4e71-8907-6a2c778b3070")
-		)
-		(pin "10"
-			(uuid "8d7421a5-7e16-44a1-99eb-e9301590058f")
-		)
-		(pin "5"
-			(uuid "04f47e17-d6d3-40ef-9077-a0b979578bda")
-		)
-		(pin "9"
-			(uuid "5bed6630-6244-40a1-ac21-46c7030a5d91")
-		)
-		(pin "8"
-			(uuid "f848fa29-7fcf-4c89-8892-3e4f8b3624d6")
-		)
-		(pin "6"
-			(uuid "6c0d0786-3db7-418b-bde2-edfb5baf0a65")
-		)
-		(pin "13"
-			(uuid "13cc5bdf-b081-48a3-a57b-1d8b2d4067b2")
-		)
-		(pin "12"
-			(uuid "6595e4f6-7e44-4960-8050-8705739ab763")
-		)
-		(pin "7"
-			(uuid "85c1f440-4663-46a4-a416-2035a55f43b0")
-		)
-		(pin "4"
-			(uuid "b9425e01-432a-422e-a644-5576d4d4f30a")
-		)
-		(instances
-			(project "Circuit 5"
-				(path "/5d392bb7-a2f8-4373-a070-9bf2073d9b08/27fc2961-0024-4600-9fbb-4098fc8d4bbd"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-			(project "Circuit 5"
-				(path "/ab9615a4-0aa7-40d9-8df4-24c2a985ff87"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 218.44 92.71 90)
 		(unit 1)
@@ -7949,110 +7652,6 @@
 			(project "Pac-Man"
 				(path "/5d392bb7-a2f8-4373-a070-9bf2073d9b08/27fc2961-0024-4600-9fbb-4098fc8d4bbd"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LS04")
-		(at 77.47 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcf7e3a5-1493-45e6-a616-be533515b299")
-		(property "Reference" "U13"
-			(at 77.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LS04"
-			(at 77.47 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 77.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 77.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d656b8f7-5a1b-4a0d-aada-df0e0f9ad183")
-		)
-		(pin "1"
-			(uuid "02e4b693-bcd7-4fb5-b238-4b1e95c9d1e0")
-		)
-		(pin "11"
-			(uuid "dbc81014-885d-4ddb-9a5c-aa3a025cc75d")
-		)
-		(pin "14"
-			(uuid "7fcda9d3-697b-4b19-8014-25e516c88aa1")
-		)
-		(pin "2"
-			(uuid "708e0e39-cb4f-4d08-ba2c-44e6dae0073c")
-		)
-		(pin "10"
-			(uuid "8d7421a5-7e16-44a1-99eb-e93015900590")
-		)
-		(pin "5"
-			(uuid "04f47e17-d6d3-40ef-9077-a0b979578bdb")
-		)
-		(pin "9"
-			(uuid "5bed6630-6244-40a1-ac21-46c7030a5d92")
-		)
-		(pin "8"
-			(uuid "f848fa29-7fcf-4c89-8892-3e4f8b3624d7")
-		)
-		(pin "6"
-			(uuid "6c0d0786-3db7-418b-bde2-edfb5baf0a66")
-		)
-		(pin "13"
-			(uuid "13cc5bdf-b081-48a3-a57b-1d8b2d4067b3")
-		)
-		(pin "12"
-			(uuid "6595e4f6-7e44-4960-8050-8705739ab764")
-		)
-		(pin "7"
-			(uuid "85c1f440-4663-46a4-a416-2035a55f43b1")
-		)
-		(pin "4"
-			(uuid "273cfcfc-3f39-48e0-9272-967ad9ee7dad")
-		)
-		(instances
-			(project "Pac-Man"
-				(path "/5d392bb7-a2f8-4373-a070-9bf2073d9b08/27fc2961-0024-4600-9fbb-4098fc8d4bbd"
-					(reference "U13")
 					(unit 1)
 				)
 			)
